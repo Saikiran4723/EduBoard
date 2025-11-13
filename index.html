@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduBoard Student Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a2e0f1f6f2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <h2 class="head1">EduBoard Student Dashboard</h2>
+            <ul>
+                <li><a href="#" class="active"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li><a href="#"><i class="fas fa-book"></i> Subjects</a></li>
+                <li><a href="#"><i class="fas fa-calendar-check"></i> Attendance</a></li>
+                <li><a href="#"><i class="fas fa-user"></i> Profile</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="profile">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.U55JLhtgXqkfESYa8kBPcAHaHa?pid=Api&P=0&h=220" alt="Student Avatar" />
+                    <span class="name" style="font-weight:bold">Sai Kiran K</span>
+                </div>
+                <div class="actions">
+                    <i class="fas fa-bell"></i>
+                </div>
+            </header>
+
+            <!-- Overview Cards -->
+            <section class="overview">
+                <div class="card">
+                    <h3>GPA</h3>
+                    <p>8.8</p>
+                </div>
+                <div class="card">
+                    <h3>Attendance</h3>
+                    <p>86%</p>
+                </div>
+                <div class="card">
+                    <h3>Assignments Due</h3>
+                    <p>0</p>
+                </div>
+                <div class="card">
+                    <h3>Total Credits</h3>
+                    <p>08</p>
+                </div>
+            </section>
+
+            <!-- Progress Table -->
+            <section class="progress-table">
+                <h2 style="font-size:bold">Subject Progress</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Completion</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Data Structures & Algorithms</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="bar" style="width:78%"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Computer Networks</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="bar" style="width: 83%"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>DBMS</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="bar" style="width: 92%"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>AI Fundamentals</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="bar" style="width: 71%"></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Upcoming Deadlines -->
+            <section class="deadlines">
+                <h2>Upcoming Deadlines</h2>
+                <ul>
+                    <li><span class="date">Mar 10</span> Submit CN Assignment</li>
+                    <li><span class="date">Mar 15</span> Mini Project Report</li>
+                    <li><span class="date">Mar 18</span> DBMS Lab Exam</li>
+                </ul>
+            </section>
+
+            <!-- Student Profile -->
+            <section class="profile-info">
+                <h2>Student Profile</h2>
+                <div class="info-card">
+                    <p><strong>Name :</strong> Sai Kiran K</p>
+                    <p><strong>Roll No :</strong> 222R5A0502</p>
+                    <p><strong>Email :</strong> Saikirank@college.edu</p>
+                    <p><strong>College :</strong> CRIT ATP</p>
+                    <p><strong>Department :</strong> Computer Science & Engineering</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
