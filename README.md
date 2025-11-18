@@ -2,7 +2,7 @@
 <h3 align="center">A passionate frontend developer from India</h3>
 
 - 🔭 Live demo on <a href="studenteduboard.ccbp.tech">Student Dashboard</a>
-- 🔭 Live demo on <a href="studenteduboard.ccbp.tech"></a>
+- 🔭 Live demo on studenteduboard.ccbp.tech
 
 - 🌱 I have completed a course in **Full Stack development with AI**
 
